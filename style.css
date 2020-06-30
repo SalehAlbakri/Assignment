@@ -1,0 +1,16 @@
+#main-header {
+    text-align:center;
+    background-color:black;
+    color:yellow;
+    padding:5px;
+}
+#main-footer {
+    text-align:center;
+    font-size:20px;
+}
+.fake-form h2 {
+    color: red;
+}
+.section > table {
+    border: 2px solid black;
+}

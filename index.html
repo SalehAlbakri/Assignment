@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>My First Fake Website</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="First Website by SAL">
+		<meta name="keywords" content="First Fake Website, SAL">
+		<link rel="stylesheet" href="./style.css">
+	</head>
+	<body>
+		<header id="main-header">
+			<h1>My First Fake Website</h1>
+		</header>
+		<div class="section">
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+			<p id="loop"></p>
+			<ul>
+				<li>List Item 1</li>
+				<li>List Item 2</li>
+				<li>List Item 3</li>
+			</ul>
+			<table>
+				<thead>
+					<tr>
+						<th>C 1</th>
+						<th>C 2</th>
+						<th>C 3</th>
+					</tr>
+					
+				</thead>
+				<tbody>
+					<tr>
+						<td>R 1, C 1</td>
+						<td>R 1, C 2</td>
+						<td>R 1, C 3</td>
+					</tr>
+					<tr>
+						<td>R 2, C 1</td>
+						<td>R 2, C 2</td>
+						<td>R 2, C 3</td>
+					</tr>
+					<tr>
+						<td>R 1, C 1</td>
+						<td>R 2, C 2</td>
+						<td>R 3, C 3</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			<a href="image.jpg">
+				<img src="./image.jpg" alt="Sample Image" width="500">
+			</a>
+		</div>
+		<hr>
+		<div class="fake-form">
+			<h2>Fill out a Fake Form</h2>
+			<br>
+			<form action="process.php" method="POST">
+				<div>
+					<label>Nick Name</label>
+					<input type="text" name="firstName" placeholder="Enter Nick Name">
+				</div>
+				<br>
+				<div>
+					<label>Birthday:</label>
+					<input type="date" name="birthday">
+				</div>
+				<br>
+				<div>
+					<label>Gender</label>
+					<select name="gender">
+						<option value="male">Male</option>
+						<option value="female">Female</option>
+						<option value="other">Other</option>
+					</select>
+				</div>
+				<br>
+				<div>
+					<label>Length</label>
+					<br>
+					<input type="radio" id="long" name="length" value="long">
+					<label for="long">more than 180 cm</label>
+					<br>
+					<input type="radio" id="medium" name="length" value="medium">
+					<label for="medium">from 160 to 180 cm</label>
+					<br>
+					<input type="radio" id="short" name="length" value="short">
+					<label for="short">less than 160 cm</label>
+				</div>
+				<br>
+				<div>
+					<label>Contact Method</label>
+					<br>
+					<input type="checkbox" id="mail" name="contact" value="mail">
+					<label for="mail">Mail</label>
+					<input type="checkbox" id="email" name="contact" value="email">
+					<label for="email">E-mail</label>
+					<input type="checkbox" id="phone" name="contact" value="phone">
+					<label for="phone">Phone</label>
+				</div>
+				<br>
+				<div>
+					<label>Message</label>
+					<textarea name="message" placeholder="Write anything"></textarea>
+				</div>
+				<br>
+				<input type="submit" name="submit" value="Submit">
+			</form>
+			<h3>I hope you enjoyed my website, <a href="http://www.google.com">click here</a> to return to Google</h3>
+		</div>
+		<footer id="main-footer">
+		<p>Copyright &copy; 2020, SAL</p>
+		</footer>
+		<script src="./js.js"></script>
+	</body>
+</html>
